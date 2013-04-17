@@ -1,0 +1,14 @@
+C:/Users/varsha/Documents/Research/libfreenect-master/my_build_2/wrappers/cpp/CMakeFiles/cppview.dir
+C:/Users/varsha/Documents/Research/libfreenect-master/my_build_2/fakenect/CMakeFiles/fakenect.dir
+C:/Users/varsha/Documents/Research/libfreenect-master/my_build_2/src/CMakeFiles/freenect.dir
+C:/Users/varsha/Documents/Research/libfreenect-master/my_build_2/wrappers/c_sync/CMakeFiles/freenect_sync.dir
+C:/Users/varsha/Documents/Research/libfreenect-master/my_build_2/wrappers/c_sync/CMakeFiles/freenect_sync_static.dir
+C:/Users/varsha/Documents/Research/libfreenect-master/my_build_2/src/CMakeFiles/freenectstatic.dir
+C:/Users/varsha/Documents/Research/libfreenect-master/my_build_2/examples/CMakeFiles/glpclview.dir
+C:/Users/varsha/Documents/Research/libfreenect-master/my_build_2/examples/CMakeFiles/glview.dir
+C:/Users/varsha/Documents/Research/libfreenect-master/my_build_2/examples/CMakeFiles/hiview.dir
+C:/Users/varsha/Documents/Research/libfreenect-master/my_build_2/fakenect/CMakeFiles/record.dir
+C:/Users/varsha/Documents/Research/libfreenect-master/my_build_2/examples/CMakeFiles/regtest.dir
+C:/Users/varsha/Documents/Research/libfreenect-master/my_build_2/examples/CMakeFiles/regview.dir
+C:/Users/varsha/Documents/Research/libfreenect-master/my_build_2/examples/CMakeFiles/tiltdemo.dir
+C:/Users/varsha/Documents/Research/libfreenect-master/my_build_2/CMakeFiles/uninstall.dir

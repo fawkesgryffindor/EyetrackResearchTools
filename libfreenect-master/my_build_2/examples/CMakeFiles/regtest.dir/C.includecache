@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../examples/../wrappers/c_sync/libfreenect_sync.h
+libfreenect.h
+-
+stdint.h
+-
+
+../include/libfreenect.h
+stdint.h
+-
+winsock.h
+-
+sys/time.h
+-
+
+C:/Users/varsha/Documents/Research/libfreenect-master/examples/regtest.c
+stdio.h
+-
+stdlib.h
+-
+libfreenect.h
+C:/Users/varsha/Documents/Research/libfreenect-master/examples/libfreenect.h
+libfreenect_sync.h
+C:/Users/varsha/Documents/Research/libfreenect-master/examples/libfreenect_sync.h
+

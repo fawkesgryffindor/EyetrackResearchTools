@@ -1,0 +1,6 @@
+Installation instructions for OpenKinect's libfreenect drivers
+
+Follow those on the openkinect website.
+Instead of glut, download freeglut for windows.
+copy the glut.h file into the include/GL folder of your mingw setup.
+everything else remains the same

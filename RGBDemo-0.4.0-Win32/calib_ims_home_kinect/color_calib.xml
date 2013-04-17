@@ -1,0 +1,144 @@
+<?xml version="1.0" standalone="yes"?>
+<CalibrationProject>
+  <xs:schema id="CalibrationProject" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="CalibrationProject" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ObjWidth" type="xs:int" minOccurs="0" />
+                <xs:element name="ObjHeight" type="xs:int" minOccurs="0" />
+                <xs:element name="FieldSize" type="xs:double" minOccurs="0" />
+                <xs:element name="DetectionMethod" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="images">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ImagePath" type="xs:string" minOccurs="0" />
+                <xs:element name="SourceType" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="results">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ImageCount" type="xs:int" minOccurs="0" />
+                <xs:element name="focus_lenX" type="xs:double" minOccurs="0" />
+                <xs:element name="focus_lenY" type="xs:double" minOccurs="0" />
+                <xs:element name="PrincipalX" type="xs:double" minOccurs="0" />
+                <xs:element name="PrincipalY" type="xs:double" minOccurs="0" />
+                <xs:element name="Dist1" type="xs:double" minOccurs="0" />
+                <xs:element name="Dist2" type="xs:double" minOccurs="0" />
+                <xs:element name="Dist3" type="xs:double" minOccurs="0" />
+                <xs:element name="Dist4" type="xs:double" minOccurs="0" />
+                <xs:element name="focus_lenX_er" type="xs:double" minOccurs="0" />
+                <xs:element name="focus_lenY_er" type="xs:double" minOccurs="0" />
+                <xs:element name="PrincipalX_er" type="xs:double" minOccurs="0" />
+                <xs:element name="PrincipalY_er" type="xs:double" minOccurs="0" />
+                <xs:element name="Dist1_er" type="xs:double" minOccurs="0" />
+                <xs:element name="Dist2_er" type="xs:double" minOccurs="0" />
+                <xs:element name="Dist3_er" type="xs:double" minOccurs="0" />
+                <xs:element name="Dist4_er" type="xs:double" minOccurs="0" />
+                <xs:element name="dc_AllImage_errX" type="xs:double" minOccurs="0" />
+                <xs:element name="dc_AllImage_errY" type="xs:double" minOccurs="0" />
+                <xs:element name="Calib_Date" type="xs:string" minOccurs="0" />
+                <xs:element name="Calib_Type" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <data>
+    <ObjWidth>9</ObjWidth>
+    <ObjHeight>10</ObjHeight>
+    <FieldSize>15.95</FieldSize>
+    <DetectionMethod>3</DetectionMethod>
+  </data>
+  <images>
+    <ImagePath>C:\Users\varsha\Downloads\RGBDemo-0.4.0-Win32\grab1\color0.png</ImagePath>
+    <SourceType>0</SourceType>
+  </images>
+  <images>
+    <ImagePath>C:\Users\varsha\Downloads\RGBDemo-0.4.0-Win32\grab1\color1.png</ImagePath>
+    <SourceType>0</SourceType>
+  </images>
+  <images>
+    <ImagePath>C:\Users\varsha\Downloads\RGBDemo-0.4.0-Win32\grab1\color2.png</ImagePath>
+    <SourceType>0</SourceType>
+  </images>
+  <images>
+    <ImagePath>C:\Users\varsha\Downloads\RGBDemo-0.4.0-Win32\grab1\color3.png</ImagePath>
+    <SourceType>0</SourceType>
+  </images>
+  <images>
+    <ImagePath>C:\Users\varsha\Downloads\RGBDemo-0.4.0-Win32\grab1\color4.png</ImagePath>
+    <SourceType>0</SourceType>
+  </images>
+  <images>
+    <ImagePath>C:\Users\varsha\Downloads\RGBDemo-0.4.0-Win32\grab1\color5.png</ImagePath>
+    <SourceType>0</SourceType>
+  </images>
+  <images>
+    <ImagePath>C:\Users\varsha\Downloads\RGBDemo-0.4.0-Win32\grab1\color6.png</ImagePath>
+    <SourceType>0</SourceType>
+  </images>
+  <images>
+    <ImagePath>C:\Users\varsha\Downloads\RGBDemo-0.4.0-Win32\grab1\color7.png</ImagePath>
+    <SourceType>0</SourceType>
+  </images>
+  <images>
+    <ImagePath>C:\Users\varsha\Downloads\RGBDemo-0.4.0-Win32\grab1\color8.png</ImagePath>
+    <SourceType>0</SourceType>
+  </images>
+  <results>
+    <ImageCount>9</ImageCount>
+    <focus_lenX>526.25209072748066</focus_lenX>
+    <focus_lenY>526.76361015746409</focus_lenY>
+    <PrincipalX>305.55531429326192</PrincipalX>
+    <PrincipalY>265.55547263254726</PrincipalY>
+    <Dist1>0.048233396166319525</Dist1>
+    <Dist2>-0.14920638401336264</Dist2>
+    <Dist3>0.0078666181139717978</Dist3>
+    <Dist4>0.0013227302194898038</Dist4>
+    <focus_lenX_er>1.9997768402099609</focus_lenX_er>
+    <focus_lenY_er>2.0884909629821777</focus_lenY_er>
+    <PrincipalX_er>1.3748341798782349</PrincipalX_er>
+    <PrincipalY_er>1.2197962999343872</PrincipalY_er>
+    <Dist1_er>0.024328606203198433</Dist1_er>
+    <Dist2_er>0.48064437508583069</Dist2_er>
+    <Dist3_er>0.00091509812045842409</Dist3_er>
+    <Dist4_er>0.0009527740185149014</Dist4_er>
+    <dc_AllImage_errX>0.14429326440152671</dc_AllImage_errX>
+    <dc_AllImage_errY>0.14971720765898636</dc_AllImage_errY>
+    <Calib_Date>3/24/2013 9:58:00 PM</Calib_Date>
+    <Calib_Type>2</Calib_Type>
+  </results>
+  <results>
+    <ImageCount>9</ImageCount>
+    <focus_lenX>526.25209072692371</focus_lenX>
+    <focus_lenY>526.76361015913574</focus_lenY>
+    <PrincipalX>305.55531429228711</PrincipalX>
+    <PrincipalY>265.55547263438893</PrincipalY>
+    <Dist1>0.048233396156702475</Dist1>
+    <Dist2>-0.14920638361438571</Dist2>
+    <Dist3>0.0078666181169517891</Dist3>
+    <Dist4>0.0013227302164637083</Dist4>
+    <focus_lenX_er>1.9997768402099609</focus_lenX_er>
+    <focus_lenY_er>2.0884909629821777</focus_lenY_er>
+    <PrincipalX_er>1.3748341798782349</PrincipalX_er>
+    <PrincipalY_er>1.2197962999343872</PrincipalY_er>
+    <Dist1_er>0.024328604340553284</Dist1_er>
+    <Dist2_er>0.4806443452835083</Dist2_er>
+    <Dist3_er>0.00091509812045842409</Dist3_er>
+    <Dist4_er>0.0009527740185149014</Dist4_er>
+    <dc_AllImage_errX>0.14429326440728249</dc_AllImage_errX>
+    <dc_AllImage_errY>0.14971720765343941</dc_AllImage_errY>
+    <Calib_Date>3/24/2013 10:02:54 PM</Calib_Date>
+    <Calib_Type>2</Calib_Type>
+  </results>
+</CalibrationProject>

@@ -1,0 +1,33 @@
+Stereo calibration parameters after optimization:
+
+DEPTH/IR
+Intrinsic parameters of left camera:
+
+Focal Length:          fc_left = [ 578.57106   579.11600 ] ± [ 0.00000   0.00000 ]
+Principal point:       cc_left = [ 329.04791   252.78205 ] ± [ 0.00000   0.00000 ]
+Skew:             alpha_c_left = [ 0.00000 ] ± [ 0.00000  ]   => angle of pixel axes = 90.00000 ± 0.00000 degrees
+Distortion:            kc_left = [ -0.08198   0.68001   0.00789   -0.00657  0.00000 ] ± [ 0.00000   0.00000   0.00000   0.00000  0.00000 ]
+
+COLOUR
+Intrinsic parameters of right camera:
+
+Focal Length:          fc_right = [ 525.85262   526.33640 ] ± [ 0.00000   0.00000 ]
+Principal point:       cc_right = [ 305.79930   265.46451 ] ± [ 0.00000   0.00000 ]
+Skew:             alpha_c_right = [ 0.00000 ] ± [ 0.00000  ]   => angle of pixel axes = 90.00000 ± 0.00000 degrees
+Distortion:            kc_right = [ 0.04853   -0.15484   0.00777   0.00149  0.00000 ] ± [ 0.00000   0.00000   0.00000   0.00000  0.00000 ]
+
+
+Extrinsic parameters (position of right camera wrt left camera):
+
+Rotation vector:             om = [ 0.02175   0.06981  -0.00162 ] ± [ 0.00700   0.00730  0.00254 ]
+Translation vector:           T = [ -0.04247   0.00754  0.01086 ] ± [ 0.00263   0.00254  0.00095 ]
+Rotation matrix (from vector) 
+R =
+
+    0.9976    0.0024    0.0697
+   -0.0009    0.9998   -0.0218
+   -0.0698    0.0217    0.9973
+
+Note: The numerical errors are approximately three times the standard deviations (for reference).
+
+Saving the stereo calibration results in Calib_Results_stereo.mat...

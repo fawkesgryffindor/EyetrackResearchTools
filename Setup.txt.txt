@@ -1,0 +1,69 @@
+SETUP ON A NEW SYSTEM
+Follow steps in KinectStuffForVarsha/read_1st_README.txt
+Download Mingw and install
+Follow steps below on openni with mingw
+Download freeglut and unzip it
+Copy freeglut.dll to C:\windows\syswow64
+Download eyetrack repo from https://github.com/bdol/eyetrack
+
+OPENNI WITH MINGW
+http://qtkinectwrapper.googlecode.com/svn/!svn/bc/14/trunk/doc/openni_include_patch_notes.txt
+(copied here)
+In order to use OpenNI with mingw under windows, the platform file must be changed:
+- so that the "linux" variant of include is called
+- yet that the __stdcall calling convention is used.
+
+These following must be changed:
+
+1) Change XnPlatform.h:
+
+
+#if defined(__MINGW32__) // gcc-windows
+   #include "mingw-win32/XnPlatformLinux-x86.h"
+#elif (_WIN32) // Microsoft Visual Studio
+
+2) Copy Include/Linux-x86 to Include/mingw-win32
+
+3) Change XnPlatformLinux-x86.h:
+
+// Changed callback type for gcc-windows (mingw) compiles to include the stdcall decoration:
+#define XN_CALLBACK_TYPE XN_STDCALL
+
+
+
+PYTHON INSTALL (http://luugiathuy.com/2011/02/setup-opencv-for-python/)
+
+Download and install OpenCV 2.3 from http://sourceforge.net/projects/opencvlibrary/files/. Note that this version only supports Python 2.6
+Add “C:/Python2.7;C:/OpenCV2.2/bin” to PATH variable (You need to change the directory to where you install Python and OpenCV).
+Create PYTHONPATH variable and put “C:/OpenCV2.2/Python2.7/Lib/site-packages” as value.
+For OpenCV2.3, There are two other options for this step:
+copy the content of folder “C:\opencv\build\python\2.7” (for opencv 2.2: C:/OpenCV2.2/Python2.7/Lib/site-packages) to folder “C:\Python27\Lib\site-packages“
+
+
+COMPILE OPENNI C++ CODE AND RUN
+eclipse
+mingw
+
+Create a new c++ project on eclipse and copy the contents of NISimpleViewer.cpp from the open ni samples
+copy <OPENNI_INSTALL_DIR>/Data into current project diretory
+Copy <OPENNI_INSTALL_DIR>/Samples/NiSimpleViewer/GL into current project diretory
+Copy <OPENNI_INSTALL_DIR>/Samples/NiSimpleViewer/glh into current project diretory
+Copy <OPENNI_INSTALL_DIR>/Samples/NiSimpleViewer/Libs into current project diretory
+right click on project, c/c++ build -> settings -> gcc c++ compiler -> includes
+Include paths: open environment variables add copy OPEN_NI_INCLUDES variable contents here
+		put in current project directory's path
+MinGW C++ Linker->Libraries
+Libraries: OpenNI
+	freeglut
+	glut32
+	glu32
+	opengl32
+Library search path: open environment variables add copy OPEN_NI_LIBS variable contents here
+			path_to_freeglut\lib
+			The Libs folder copied into current directory from <OPENNI_INSTALL_DIR>/Samples/NiSimpleViewer/Libs
+			<OPENNI_INSTALL_DIR>/Samples/Bin/Release
+
+Thats it!
+Build the project
+And Run the exe
+		

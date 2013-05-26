@@ -17,7 +17,7 @@ IF(WIN32)
 	SET( OPENNI_INCLUDES "C:/Program Files\ (x86)/OpenNI/Include") 
 	SET( OPENNI_LIB "C:/Program Files\ (x86)/OpenNI/Lib") 
 
-	SET( FREEGLUT_LIB C:/Users/varsha/Documents/Research/freeglut/lib ) 
+	SET( FREEGLUT_LIB C:/Users/varsha/Documents/ResearchTools/freeglut/lib ) 
 	LINK_DIRECTORIES( ${OPENNI_LIB} ${OPENCV_LIB} ${FREEGLUT_LIB} )
 
 

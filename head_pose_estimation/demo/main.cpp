@@ -57,6 +57,7 @@
 #include <XnOS.h>
 #include <XnCppWrapper.h>
 #include <XnCodecIDs.h>
+#include <fstream>
 
 #include "../CRForestEstimator.h"
 #include "gl_camera.hpp"
@@ -110,6 +111,8 @@ xn::Context g_Context;
 xn::DepthGenerator g_DepthGenerator;
 
 DepthMetaData g_depthMD;
+
+ofstream fout;
 
 XnStatus g_RetVal;
 
@@ -416,7 +419,10 @@ void key(unsigned char _k, int, int) {
 			break;
 
 		}
-
+		case 'w':{
+			fout<<"*************************************************************"<<endl;
+			break;
+		}
 	default:
 		break;
 
@@ -598,6 +604,9 @@ void draw()
 
 			drawCylinder(head_center, head_front, 8, quadric);
 
+			fout<<mult<<","<<g_means[i][3]<<","<<g_means[i][4]<<","<<g_means[i][5]<<","<<g_means[i][0]<<","<<g_means[i][1]<<","<<g_means[i][2]<<",";
+			fout<<head_front[0]<<","<<head_front[1]<<","<<head_front[2]<<endl;
+
 		}
 
 	}
@@ -653,6 +662,8 @@ void draw()
 
 int main(int argc, char* argv[])
 {
+
+fout.open ("head_pose_output.txt");
 
 	if( argc != 2 ){
 

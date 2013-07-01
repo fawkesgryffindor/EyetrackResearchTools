@@ -569,7 +569,7 @@ void draw()
 				math_vector_3f norm = cross_product(d2,d1);
 				glNormal3f(norm[0],norm[1],norm[2]);
 				glVertex3f(Mi[x][0],Mi[x][1],Mi[x][2]);
-
+//cout<<Mi[x][0]<<","<<Mi[x][1]<<","<<Mi[x][2]<<endl;
 			}
 		}
 		glEnd();

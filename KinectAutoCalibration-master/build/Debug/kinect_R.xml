@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<opencv_storage>
+<kinect_R type_id="opencv-matrix">
+  <rows>3</rows>
+  <cols>3</cols>
+  <dt>f</dt>
+  <data>
+    9.99935210e-01 -1.13074575e-02 -1.32269843e-03 1.13053890e-02
+    9.99934852e-01 -1.56153436e-03 1.34026923e-03 1.54647953e-03
+    9.99997914e-01</data></kinect_R>
+</opencv_storage>

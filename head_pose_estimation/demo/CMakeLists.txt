@@ -4,7 +4,7 @@ SET( 	HEAD_DEMO
 		../CRForestEstimator.cpp
 		../CRTree.cpp
 		gl_camera.cpp
-		main.cpp 
+		newmain.cpp 
 )
 
 SET(CMAKE_BUILD_TYPE "Release")

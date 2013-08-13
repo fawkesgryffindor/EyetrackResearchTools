@@ -14,9 +14,6 @@
 # EXTERNAL cache entries
 ########################
 
-//Path to a program.
-CMAKE_AR:FILEPATH=C:/MinGW/bin/ar.exe
-
 //Choose the type of build, options are: None(CMAKE_CXX_FLAGS or
 // CMAKE_C_FLAGS used) Debug Release RelWithDebInfo MinSizeRel.
 CMAKE_BUILD_TYPE:STRING=
@@ -92,9 +89,6 @@ CMAKE_GNUtoMS:BOOL=OFF
 CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/Project
 
 //Path to a program.
-CMAKE_LINKER:FILEPATH=C:/MinGW/bin/ld.exe
-
-//Path to a program.
 CMAKE_MAKE_PROGRAM:FILEPATH=C:/MinGW/bin/mingw32-make.exe
 
 //Flags used by the linker during the creation of modules.
@@ -112,20 +106,8 @@ CMAKE_MODULE_LINKER_FLAGS_RELEASE:STRING=
 //Flags used by the linker during Release with Debug Info builds.
 CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
-//Path to a program.
-CMAKE_NM:FILEPATH=C:/MinGW/bin/nm.exe
-
-//Path to a program.
-CMAKE_OBJCOPY:FILEPATH=C:/MinGW/bin/objcopy.exe
-
-//Path to a program.
-CMAKE_OBJDUMP:FILEPATH=C:/MinGW/bin/objdump.exe
-
 //Value Computed by CMake
 CMAKE_PROJECT_NAME:STATIC=Project
-
-//Path to a program.
-CMAKE_RANLIB:FILEPATH=C:/MinGW/bin/ranlib.exe
 
 //RC compiler.
 CMAKE_RC_COMPILER:FILEPATH=C:/MinGW/bin/windres.exe
@@ -158,9 +140,6 @@ CMAKE_SKIP_INSTALL_RPATH:BOOL=OFF
 //If set, runtime paths are not added when using shared libraries.
 CMAKE_SKIP_RPATH:BOOL=OFF
 
-//Path to a program.
-CMAKE_STRIP:FILEPATH=C:/MinGW/bin/strip.exe
-
 //If true, cmake will use relative paths in makefiles and projects.
 CMAKE_USE_RELATIVE_PATHS:BOOL=OFF
 
@@ -181,8 +160,6 @@ Project_SOURCE_DIR:STATIC=C:/Users/varsha/Documents/ResearchTools/head_pose_esti
 # INTERNAL cache entries
 ########################
 
-//ADVANCED property for variable: CMAKE_AR
-CMAKE_AR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_BUILD_TOOL
 CMAKE_BUILD_TOOL-ADVANCED:INTERNAL=1
 //What is the target build tool cmake is generating for.
@@ -203,8 +180,6 @@ CMAKE_COMMAND:INTERNAL=C:/Program Files (x86)/CMake 2.8/bin/cmake.exe
 CMAKE_CPACK_COMMAND:INTERNAL=C:/Program Files (x86)/CMake 2.8/bin/cpack.exe
 //Path to ctest program executable.
 CMAKE_CTEST_COMMAND:INTERNAL=C:/Program Files (x86)/CMake 2.8/bin/ctest.exe
-//ADVANCED property for variable: CMAKE_CXX_COMPILER
-CMAKE_CXX_COMPILER-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_FLAGS
 CMAKE_CXX_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_FLAGS_DEBUG
@@ -217,8 +192,6 @@ CMAKE_CXX_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 CMAKE_CXX_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_STANDARD_LIBRARIES
 CMAKE_CXX_STANDARD_LIBRARIES-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_C_COMPILER
-CMAKE_C_COMPILER-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_C_FLAGS
 CMAKE_C_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_C_FLAGS_DEBUG
@@ -233,8 +206,6 @@ CMAKE_C_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 CMAKE_C_STANDARD_LIBRARIES-ADVANCED:INTERNAL=1
 //Path to cache edit program executable.
 CMAKE_EDIT_COMMAND:INTERNAL=C:/Program Files (x86)/CMake 2.8/bin/cmake-gui.exe
-//Executable file format
-CMAKE_EXECUTABLE_FORMAT:INTERNAL=Unknown
 //ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS
 CMAKE_EXE_LINKER_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS_DEBUG
@@ -250,8 +221,6 @@ CMAKE_GENERATOR:INTERNAL=MinGW Makefiles
 //Start directory with the top level CMakeLists.txt file for this
 // project
 CMAKE_HOME_DIRECTORY:INTERNAL=C:/Users/varsha/Documents/ResearchTools/head_pose_estimation/demo
-//ADVANCED property for variable: CMAKE_LINKER
-CMAKE_LINKER-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MAKE_PROGRAM
 CMAKE_MAKE_PROGRAM-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MODULE_LINKER_FLAGS
@@ -264,19 +233,8 @@ CMAKE_MODULE_LINKER_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
 CMAKE_MODULE_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO
 CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_NM
-CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
 CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=1
-//ADVANCED property for variable: CMAKE_OBJCOPY
-CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_OBJDUMP
-CMAKE_OBJDUMP-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_RANLIB
-CMAKE_RANLIB-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_RC_COMPILER
-CMAKE_RC_COMPILER-ADVANCED:INTERNAL=1
-CMAKE_RC_COMPILER_WORKS:INTERNAL=1
 //ADVANCED property for variable: CMAKE_RC_FLAGS
 CMAKE_RC_FLAGS-ADVANCED:INTERNAL=1
 //Path to CMake installation.
@@ -297,8 +255,6 @@ CMAKE_SHARED_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 CMAKE_SKIP_INSTALL_RPATH-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_SKIP_RPATH
 CMAKE_SKIP_RPATH-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_STRIP
-CMAKE_STRIP-ADVANCED:INTERNAL=1
 //Suppress Warnings that are meant for the author of the CMakeLists.txt
 // files.
 CMAKE_SUPPRESS_DEVELOPER_WARNINGS:INTERNAL=FALSE

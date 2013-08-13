@@ -16,6 +16,7 @@
         <in>math.hpp</in>
         <in>matrix.hpp</in>
         <in>matrix_fixed.hpp</in>
+        <in>newmain.cpp</in>
         <in>rigid_motion.hpp</in>
         <in>trackball.hpp</in>
         <in>vector.hpp</in>

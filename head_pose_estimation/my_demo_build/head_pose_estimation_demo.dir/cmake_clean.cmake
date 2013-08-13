@@ -2,7 +2,7 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/../head_pose_estimation_demo.dir/C_/Users/varsha/Documents/ResearchTools/head_pose_estimation/CRForestEstimator.cpp.obj"
   "CMakeFiles/../head_pose_estimation_demo.dir/C_/Users/varsha/Documents/ResearchTools/head_pose_estimation/CRTree.cpp.obj"
   "CMakeFiles/../head_pose_estimation_demo.dir/gl_camera.cpp.obj"
-  "CMakeFiles/../head_pose_estimation_demo.dir/main.cpp.obj"
+  "CMakeFiles/../head_pose_estimation_demo.dir/newmain.cpp.obj"
   "../head_pose_estimation_demo.pdb"
   "../head_pose_estimation_demo.exe"
   "../head_pose_estimation_demo.exe.manifest"

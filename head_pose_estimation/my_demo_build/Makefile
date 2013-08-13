@@ -185,29 +185,29 @@ gl_camera.cpp.s:
 	$(MAKE) -f CMakeFiles\..\head_pose_estimation_demo.dir\build.make CMakeFiles/../head_pose_estimation_demo.dir/gl_camera.cpp.s
 .PHONY : gl_camera.cpp.s
 
-main.obj: main.cpp.obj
-.PHONY : main.obj
+newmain.obj: newmain.cpp.obj
+.PHONY : newmain.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) -f CMakeFiles\..\head_pose_estimation_demo.dir\build.make CMakeFiles/../head_pose_estimation_demo.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+newmain.cpp.obj:
+	$(MAKE) -f CMakeFiles\..\head_pose_estimation_demo.dir\build.make CMakeFiles/../head_pose_estimation_demo.dir/newmain.cpp.obj
+.PHONY : newmain.cpp.obj
 
-main.i: main.cpp.i
-.PHONY : main.i
+newmain.i: newmain.cpp.i
+.PHONY : newmain.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles\..\head_pose_estimation_demo.dir\build.make CMakeFiles/../head_pose_estimation_demo.dir/main.cpp.i
-.PHONY : main.cpp.i
+newmain.cpp.i:
+	$(MAKE) -f CMakeFiles\..\head_pose_estimation_demo.dir\build.make CMakeFiles/../head_pose_estimation_demo.dir/newmain.cpp.i
+.PHONY : newmain.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+newmain.s: newmain.cpp.s
+.PHONY : newmain.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles\..\head_pose_estimation_demo.dir\build.make CMakeFiles/../head_pose_estimation_demo.dir/main.cpp.s
-.PHONY : main.cpp.s
+newmain.cpp.s:
+	$(MAKE) -f CMakeFiles\..\head_pose_estimation_demo.dir\build.make CMakeFiles/../head_pose_estimation_demo.dir/newmain.cpp.s
+.PHONY : newmain.cpp.s
 
 # Help Target
 help:
@@ -227,9 +227,9 @@ help:
 	@echo ... gl_camera.obj
 	@echo ... gl_camera.i
 	@echo ... gl_camera.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... newmain.obj
+	@echo ... newmain.i
+	@echo ... newmain.s
 .PHONY : help
 
 

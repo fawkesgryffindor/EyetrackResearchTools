@@ -123,36 +123,36 @@ CMakeFiles/../head_pose_estimation_demo.dir/gl_camera.cpp.obj.provides: CMakeFil
 
 CMakeFiles/../head_pose_estimation_demo.dir/gl_camera.cpp.obj.provides.build: CMakeFiles/../head_pose_estimation_demo.dir/gl_camera.cpp.obj
 
-CMakeFiles/../head_pose_estimation_demo.dir/main.cpp.obj: CMakeFiles/../head_pose_estimation_demo.dir/flags.make
-CMakeFiles/../head_pose_estimation_demo.dir/main.cpp.obj: CMakeFiles/../head_pose_estimation_demo.dir/includes_CXX.rsp
-CMakeFiles/../head_pose_estimation_demo.dir/main.cpp.obj: C:/Users/varsha/Documents/ResearchTools/head_pose_estimation/demo/main.cpp
+CMakeFiles/../head_pose_estimation_demo.dir/newmain.cpp.obj: CMakeFiles/../head_pose_estimation_demo.dir/flags.make
+CMakeFiles/../head_pose_estimation_demo.dir/newmain.cpp.obj: CMakeFiles/../head_pose_estimation_demo.dir/includes_CXX.rsp
+CMakeFiles/../head_pose_estimation_demo.dir/newmain.cpp.obj: C:/Users/varsha/Documents/ResearchTools/head_pose_estimation/demo/newmain.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\varsha\Documents\ResearchTools\head_pose_estimation\my_demo_build\CMakeFiles $(CMAKE_PROGRESS_4)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/../head_pose_estimation_demo.dir/main.cpp.obj"
-	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\..\head_pose_estimation_demo.dir\main.cpp.obj -c C:\Users\varsha\Documents\ResearchTools\head_pose_estimation\demo\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/../head_pose_estimation_demo.dir/newmain.cpp.obj"
+	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\..\head_pose_estimation_demo.dir\newmain.cpp.obj -c C:\Users\varsha\Documents\ResearchTools\head_pose_estimation\demo\newmain.cpp
 
-CMakeFiles/../head_pose_estimation_demo.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/../head_pose_estimation_demo.dir/main.cpp.i"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\varsha\Documents\ResearchTools\head_pose_estimation\demo\main.cpp > CMakeFiles\..\head_pose_estimation_demo.dir\main.cpp.i
+CMakeFiles/../head_pose_estimation_demo.dir/newmain.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/../head_pose_estimation_demo.dir/newmain.cpp.i"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\varsha\Documents\ResearchTools\head_pose_estimation\demo\newmain.cpp > CMakeFiles\..\head_pose_estimation_demo.dir\newmain.cpp.i
 
-CMakeFiles/../head_pose_estimation_demo.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/../head_pose_estimation_demo.dir/main.cpp.s"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\varsha\Documents\ResearchTools\head_pose_estimation\demo\main.cpp -o CMakeFiles\..\head_pose_estimation_demo.dir\main.cpp.s
+CMakeFiles/../head_pose_estimation_demo.dir/newmain.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/../head_pose_estimation_demo.dir/newmain.cpp.s"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\varsha\Documents\ResearchTools\head_pose_estimation\demo\newmain.cpp -o CMakeFiles\..\head_pose_estimation_demo.dir\newmain.cpp.s
 
-CMakeFiles/../head_pose_estimation_demo.dir/main.cpp.obj.requires:
-.PHONY : CMakeFiles/../head_pose_estimation_demo.dir/main.cpp.obj.requires
+CMakeFiles/../head_pose_estimation_demo.dir/newmain.cpp.obj.requires:
+.PHONY : CMakeFiles/../head_pose_estimation_demo.dir/newmain.cpp.obj.requires
 
-CMakeFiles/../head_pose_estimation_demo.dir/main.cpp.obj.provides: CMakeFiles/../head_pose_estimation_demo.dir/main.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\..\head_pose_estimation_demo.dir\build.make CMakeFiles/../head_pose_estimation_demo.dir/main.cpp.obj.provides.build
-.PHONY : CMakeFiles/../head_pose_estimation_demo.dir/main.cpp.obj.provides
+CMakeFiles/../head_pose_estimation_demo.dir/newmain.cpp.obj.provides: CMakeFiles/../head_pose_estimation_demo.dir/newmain.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\..\head_pose_estimation_demo.dir\build.make CMakeFiles/../head_pose_estimation_demo.dir/newmain.cpp.obj.provides.build
+.PHONY : CMakeFiles/../head_pose_estimation_demo.dir/newmain.cpp.obj.provides
 
-CMakeFiles/../head_pose_estimation_demo.dir/main.cpp.obj.provides.build: CMakeFiles/../head_pose_estimation_demo.dir/main.cpp.obj
+CMakeFiles/../head_pose_estimation_demo.dir/newmain.cpp.obj.provides.build: CMakeFiles/../head_pose_estimation_demo.dir/newmain.cpp.obj
 
 # Object files for target ../head_pose_estimation_demo
 __/head_pose_estimation_demo_OBJECTS = \
 "CMakeFiles/../head_pose_estimation_demo.dir/C_/Users/varsha/Documents/ResearchTools/head_pose_estimation/CRForestEstimator.cpp.obj" \
 "CMakeFiles/../head_pose_estimation_demo.dir/C_/Users/varsha/Documents/ResearchTools/head_pose_estimation/CRTree.cpp.obj" \
 "CMakeFiles/../head_pose_estimation_demo.dir/gl_camera.cpp.obj" \
-"CMakeFiles/../head_pose_estimation_demo.dir/main.cpp.obj"
+"CMakeFiles/../head_pose_estimation_demo.dir/newmain.cpp.obj"
 
 # External object files for target ../head_pose_estimation_demo
 __/head_pose_estimation_demo_EXTERNAL_OBJECTS =
@@ -160,7 +160,7 @@ __/head_pose_estimation_demo_EXTERNAL_OBJECTS =
 ../head_pose_estimation_demo.exe: CMakeFiles/../head_pose_estimation_demo.dir/C_/Users/varsha/Documents/ResearchTools/head_pose_estimation/CRForestEstimator.cpp.obj
 ../head_pose_estimation_demo.exe: CMakeFiles/../head_pose_estimation_demo.dir/C_/Users/varsha/Documents/ResearchTools/head_pose_estimation/CRTree.cpp.obj
 ../head_pose_estimation_demo.exe: CMakeFiles/../head_pose_estimation_demo.dir/gl_camera.cpp.obj
-../head_pose_estimation_demo.exe: CMakeFiles/../head_pose_estimation_demo.dir/main.cpp.obj
+../head_pose_estimation_demo.exe: CMakeFiles/../head_pose_estimation_demo.dir/newmain.cpp.obj
 ../head_pose_estimation_demo.exe: CMakeFiles/../head_pose_estimation_demo.dir/build.make
 ../head_pose_estimation_demo.exe: CMakeFiles/../head_pose_estimation_demo.dir/objects1.rsp
 ../head_pose_estimation_demo.exe: CMakeFiles/../head_pose_estimation_demo.dir/link.txt
@@ -174,7 +174,7 @@ CMakeFiles/../head_pose_estimation_demo.dir/build: ../head_pose_estimation_demo.
 CMakeFiles/../head_pose_estimation_demo.dir/requires: CMakeFiles/../head_pose_estimation_demo.dir/C_/Users/varsha/Documents/ResearchTools/head_pose_estimation/CRForestEstimator.cpp.obj.requires
 CMakeFiles/../head_pose_estimation_demo.dir/requires: CMakeFiles/../head_pose_estimation_demo.dir/C_/Users/varsha/Documents/ResearchTools/head_pose_estimation/CRTree.cpp.obj.requires
 CMakeFiles/../head_pose_estimation_demo.dir/requires: CMakeFiles/../head_pose_estimation_demo.dir/gl_camera.cpp.obj.requires
-CMakeFiles/../head_pose_estimation_demo.dir/requires: CMakeFiles/../head_pose_estimation_demo.dir/main.cpp.obj.requires
+CMakeFiles/../head_pose_estimation_demo.dir/requires: CMakeFiles/../head_pose_estimation_demo.dir/newmain.cpp.obj.requires
 .PHONY : CMakeFiles/../head_pose_estimation_demo.dir/requires
 
 CMakeFiles/../head_pose_estimation_demo.dir/clean:

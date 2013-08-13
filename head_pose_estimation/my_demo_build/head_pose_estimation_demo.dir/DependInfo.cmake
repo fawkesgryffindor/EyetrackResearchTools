@@ -7,7 +7,7 @@ SET(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/varsha/Documents/ResearchTools/head_pose_estimation/CRForestEstimator.cpp" "C:/Users/varsha/Documents/ResearchTools/head_pose_estimation/my_demo_build/head_pose_estimation_demo.dir/C_/Users/varsha/Documents/ResearchTools/head_pose_estimation/CRForestEstimator.cpp.obj"
   "C:/Users/varsha/Documents/ResearchTools/head_pose_estimation/CRTree.cpp" "C:/Users/varsha/Documents/ResearchTools/head_pose_estimation/my_demo_build/head_pose_estimation_demo.dir/C_/Users/varsha/Documents/ResearchTools/head_pose_estimation/CRTree.cpp.obj"
   "C:/Users/varsha/Documents/ResearchTools/head_pose_estimation/demo/gl_camera.cpp" "C:/Users/varsha/Documents/ResearchTools/head_pose_estimation/my_demo_build/head_pose_estimation_demo.dir/gl_camera.cpp.obj"
-  "C:/Users/varsha/Documents/ResearchTools/head_pose_estimation/demo/main.cpp" "C:/Users/varsha/Documents/ResearchTools/head_pose_estimation/my_demo_build/head_pose_estimation_demo.dir/main.cpp.obj"
+  "C:/Users/varsha/Documents/ResearchTools/head_pose_estimation/demo/newmain.cpp" "C:/Users/varsha/Documents/ResearchTools/head_pose_estimation/my_demo_build/head_pose_estimation_demo.dir/newmain.cpp.obj"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

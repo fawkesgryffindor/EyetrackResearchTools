@@ -15,7 +15,7 @@ In order to use OpenNI with mingw under windows, the platform file must be chang
 
 These following must be changed:
 
-1) Change XnPlatform.h:
+1) Change XnPlatform.h: <openni install directory>/include
 
 
 #if defined(__MINGW32__) // gcc-windows

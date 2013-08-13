@@ -4,3 +4,8 @@ Follow those on the openkinect website.
 Instead of glut, download freeglut for windows.
 copy the glut.h file into the include/GL folder of your mingw setup.
 everything else remains the same
+Also, when it asks to copy dlls and libraries to c:/windows/system32, copy them instead to c:/windows/syswow64
+
+After using cmake to generate the makefile, open up a cmd prompt and navigate to the build folder you selected in cmake as the detsination. and run 
+mingw32-make
+to actually compile everything and generate content in the bin and lib folders 
